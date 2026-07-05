@@ -5,6 +5,9 @@ paginated listing page, DJS05 adds **dynamic routing** so every show has its own
 URL, a rich **show detail page**, and a **season navigation** browser — while
 preserving the user's search and filter state as they move between pages.
 
+## Deployment
+PodCast live on Vercel: https://mypodcastapp.vercel.app/
+
 ## Features
 
 - **Homepage / listing** — search, genre filter, sort, and pagination over all shows.
