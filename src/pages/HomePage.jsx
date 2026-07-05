@@ -26,9 +26,9 @@ import styles from "../App.module.css";
 // Home page component that displays the podcast browsing interface
 export default function HomePage({ loading, error }) {
   return (
-    <main className={styles.main}> // Main container for the home page
+    <main className={styles.main}> 
 
-      /* Section containing search, filter, and sorting controls */
+     
       <section className={styles.controls}>
         <SearchBar />
         <GenreFilter genres={genres} />
