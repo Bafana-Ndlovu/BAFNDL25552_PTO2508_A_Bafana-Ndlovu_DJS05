@@ -22,9 +22,13 @@ import styles from "../App.module.css";
  * @param {string|null} props.error - Error message if the fetch failed, else null.
  * @returns {JSX.Element}
  */
+
+// Home page component that displays the podcast browsing interface
 export default function HomePage({ loading, error }) {
   return (
-    <main className={styles.main}>
+    <main className={styles.main}> // Main container for the home page
+
+      /* Section containing search, filter, and sorting controls */
       <section className={styles.controls}>
         <SearchBar />
         <GenreFilter genres={genres} />
